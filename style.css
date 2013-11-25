@@ -1,0 +1,27 @@
+@import url('assets/css/reset.css');
+@import url('assets/fonts/bebas/stylesheet.css');
+@import url('assets/fonts/Sansation/stylesheet.css');
+@import url('assets/css/main.css');
+@import url('assets/css/print.css');
+
+/*
+ * Media queries for responsive design
+ * These follow after primary styles so they will successfully override. 
+ */
+
+@media all and (orientation:portrait) { 
+  /* Style adjustments for portrait mode goes here */
+  
+}
+
+@media all and (orientation:landscape) { 
+  /* Style adjustments for landscape mode goes here */
+  
+}
+
+/* Grade-A Mobile Browsers (Opera Mobile, iPhone Safari, Android Chrome)  
+   Consider this: www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/ */
+@media screen and (max-device-width: 480px) {
+  
+  
+}
